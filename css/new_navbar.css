@@ -1,0 +1,84 @@
+body {
+	margin: 0;
+}
+
+/*horizontal navbar*/
+
+ul.horizontal-navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+ul.horizontal-navbar li {
+	float: left;
+}
+
+ul.horizontal-navbar li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 30px;
+	text-decoration: none;
+}
+
+ul.horizontal-navbar li a:hover:not(.active) {
+	background-color:  #4CAF50;
+}
+
+ul.horizontal-navbar li a.active {
+	background-color: #4CAF50;
+}
+
+/*bagian vertical-navbar*/
+
+ul.vertical-navbar {
+	list-style-type: none;
+	margin: 1px 0px;
+	/*margin-top: 50px;*/
+	padding: 5px 5px;
+	padding-right: 20px;
+	position: fixed;
+	/*position: relative;*/
+	background-color: #e8dede;
+	/*top: 0;*/
+	width: 200px;
+	height: 100%;
+}
+
+ul.vertical-navbar li {
+	margin: 5px 0px;
+	border: solid;
+	border-width: 1px;
+	border-color: #000000;
+}
+
+ul.vertical-navbar li a {
+	display: block;
+	color: black;
+	text-align: left;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+ul.vertical-navbar li a:hover:not(.active) {
+	background-color:  #bf5d5d;
+}
+
+ul.vertical-navbar li a.active {
+	background-color: #bf5d5d;
+}
+
+.vertical-navbar-content {
+	margin-top: 0px;
+}
+
+.content {
+	margin-top: 50px;
+	margin-left: 250px;
+}
